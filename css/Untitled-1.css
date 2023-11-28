@@ -19,6 +19,10 @@ html {
   background-color: #fafafa;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  @media (max-width: 576px) {
+    overflow-x: hidden;
+  }
 }
 body {
   font-family: "Inter" sans-serif;
